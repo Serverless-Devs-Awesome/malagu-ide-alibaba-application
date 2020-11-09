@@ -1,6 +1,6 @@
-# Cellbang IDE
+# 个人网盘
 
-Cellbang IDE 是 [Malagu](https://github.com/cellbang/malagu) + [Theia](https://theia-ide.org/) 实现的 Web IDE，可以部署在 Serverless 平台上。这是一个模板项目，使用该模板项目，我们可以快速部署一个运行在 Serverless 平台上的 Web IDE。本模板以默认部署到阿里云函数计算平台。
+IDE 风格个人网盘是 [Malagu](https://github.com/cellbang/malagu) + [Theia](https://theia-ide.org/) 实现的，可以部署在 Serverless 平台上。这是一个模板项目，使用该模板项目，我们可以快速部署一个运行在 Serverless 平台上的个人网盘。本模板以默认部署到阿里云函数计算平台。
 
 ## 效果
 
@@ -10,7 +10,7 @@ Cellbang IDE 是 [Malagu](https://github.com/cellbang/malagu) + [Theia](https://
 
 ## 原理
 
-从效果图，可以发现我们的 Web IDE 与 Theia IDE 几乎一模一样。原因是我们采用 Theia + Malagu 实现的。Malagu 框架的前后端一体设计灵感来自 Theia IDE，所以 Malagu 可以无缝与 Theia IDE 进行融合。我们甚至可以使用 Malagu 作为基础框架开发 Theia IDE 的扩展。Theia IDE 的扩展与 Malagu 的组件几乎一样。
+从效果图，可以发现我们的个人网盘 与 Theia IDE 几乎一模一样。原因是我们采用 Theia + Malagu 实现的。Malagu 框架的前后端一体设计灵感来自 Theia IDE，所以 Malagu 可以无缝与 Theia IDE 进行融合。我们甚至可以使用 Malagu 作为基础框架开发 Theia IDE 的扩展。Theia IDE 的扩展与 Malagu 的组件几乎一样。
 
 目前，Serverless 平台对长连接双向通信支持不是很友好，所以 Malagu 在集成 Theia IDE 的时候，将大部分长连接的实现替换了短连接单向通信。对于 Teminal 等对双向通信有强要求的模块，我们并没有适配。
 
@@ -53,10 +53,9 @@ s -v
 
 ## 项目部署
 
- 初始化一个模版项目：`s init fc-ide -p alibaba`
-    ![](http://activity.serverlessfans.com/auto_poem/imgs/auto_poen_01.jpg)
+ 初始化一个模版项目：`s init personal-network-disk -p alibaba`
 
-- 进入项目：`cd fc-ide`
+- 进入项目：`cd personal-network-disk`
 
 
 - 执行：`s deploy`即可进行部署：

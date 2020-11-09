@@ -1,13 +1,14 @@
 Type: Application
-Name: malagu-ide
-Version: 0.0.3
+Name: personal-network-disk
+Version: 0.0.2
 Provider:
   - Alibaba
-Description: 基于阿里云函数计算云IDE
+Description: 基于『函数计算』+『NAS』的 IDE 风格个人网盘
 HomePage: https://serverless.aliyun.com/
 Tags:
   - IDE
   - malagu
+  - NAS
 Category: 其他
 Service:
   函数计算:
