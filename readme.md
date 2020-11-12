@@ -4,7 +4,7 @@ IDE 风格个人网盘是 [Malagu](https://github.com/cellbang/malagu) + [Theia]
 
 ## 效果
 
-在线演示网址：[http://ide.cellbang.com](http://ide.cellbang.com)。只有 `/tmp` 目录下可写，其他目录都是只读。
+在线演示网址：[https://ide.cellbang.com/tmp](http://ide.cellbang.com)。只有 `/tmp` 目录下可写，其他目录都是只读。
 
 ![ide.jpg](https://i.loli.net/2020/10/15/hm9lQHTwp3dLyJR.jpg)
 
