@@ -10,7 +10,7 @@ ServerlessIde:
     Function:
       Name: serverless_ide
       Description: Serverless IDE
-      CodeUri: ./src
+      CodeUri: ./.malagu
       Handler: index.handler
       MemorySize: 1024
       Runtime: custom

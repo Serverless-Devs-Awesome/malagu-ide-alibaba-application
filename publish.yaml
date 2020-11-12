@@ -1,6 +1,6 @@
 Type: Application
 Name: personal-network-disk
-Version: 0.0.2
+Version: 0.0.4
 Provider:
   - Alibaba
 Description: 基于『函数计算』+『NAS』的 IDE 风格个人网盘
